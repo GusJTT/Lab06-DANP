@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC04ADC82CD9AF4C00EC6193 /* QRScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04ADC72CD9AF4C00EC6193 /* QRScannerDelegate.swift */; };
-		EC1CB0AB2CDB3AAF002C2BAC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB0AA2CDB3AAF002C2BAC /* ImagePicker.swift */; };
+		EC54CE3B2CE26A49009FDAFE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54CE3A2CE26A49009FDAFE /* ImagePicker.swift */; };
 		ECAE66642CD2EC2C00B2BB52 /* Lab06App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE66632CD2EC2C00B2BB52 /* Lab06App.swift */; };
 		ECAE66662CD2EC2C00B2BB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE66652CD2EC2C00B2BB52 /* ContentView.swift */; };
 		ECAE66682CD2EC4200B2BB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAE66672CD2EC4200B2BB52 /* Assets.xcassets */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		EC04ADC72CD9AF4C00EC6193 /* QRScannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerDelegate.swift; sourceTree = "<group>"; };
-		EC1CB0AA2CDB3AAF002C2BAC /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../../../../../.Trash/ImagePicker.swift; sourceTree = "<group>"; };
+		EC54CE3A2CE26A49009FDAFE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		ECAE66602CD2EC2C00B2BB52 /* Lab06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAE66632CD2EC2C00B2BB52 /* Lab06App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab06App.swift; sourceTree = "<group>"; };
 		ECAE66652CD2EC2C00B2BB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,11 +154,11 @@
 		ECEC4D542CD959E400D80551 /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
-				EC1CB0AA2CDB3AAF002C2BAC /* ImagePicker.swift */,
 				ECEC4D572CD95A2200D80551 /* VistaInicio.swift */,
 				ECEC4D592CD95A4100D80551 /* VistaQR.swift */,
 				ECEC4D5B2CD996E400D80551 /* VistaCamara.swift */,
 				EC04ADC72CD9AF4C00EC6193 /* QRScannerDelegate.swift */,
+				EC54CE3A2CE26A49009FDAFE /* ImagePicker.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 				ECF812E12CD9A2D400EC7DD8 /* Permission.swift in Sources */,
 				ECEC4D5A2CD95A4100D80551 /* VistaQR.swift in Sources */,
 				EC04ADC82CD9AF4C00EC6193 /* QRScannerDelegate.swift in Sources */,
-				EC1CB0AB2CDB3AAF002C2BAC /* ImagePicker.swift in Sources */,
+				EC54CE3B2CE26A49009FDAFE /* ImagePicker.swift in Sources */,
 				ECEC4D582CD95A2200D80551 /* VistaInicio.swift in Sources */,
 				ECEC4D5C2CD996E400D80551 /* VistaCamara.swift in Sources */,
 			);
